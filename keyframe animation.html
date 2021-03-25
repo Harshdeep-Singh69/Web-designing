@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#aa{
+			height: 1250px;
+			width: 1850px;
+			background: blue;
+			position: relative;
+			-webkit-animation:harsh 8s;
+			animation:harsh 8s;
+
+		}
+		@keyframes harsh{
+			0%{background: pink; left:0px;top:0px;}
+			25%{background: brown; left:0px;top:0px;}
+			50%{background: blue; left:0px;top:0px;}
+			75%{background: green; left:0px;top:0px;}
+			100%{background: red; left:0px;top:0px;}
+		}
+		#bb{
+			height: 250px;
+			width: 250px;
+			background: blue;
+			position: relative;
+			-webkit-animation:bb 8s;
+			animation:bb 8s;
+
+		}
+		@keyframes bb{
+			0%{background: red; left:0px;top:0px;}
+			25%{background: green; left:1250px;top:0px;}
+			50%{background: pink; left:1250px;top:400px;}
+			75%{background: yellow; left:0px;top:400px;}
+			100%{background: brown; left:0px;top:-500px;}
+		}
+
+	</style>
+	<title></title>
+</head>
+<body>
+	<div id="aa">
+		<div id="bb">
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>

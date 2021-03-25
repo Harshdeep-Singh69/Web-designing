@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<style type="text/css">
+		*{
+			background-color: #99ccff;
+		}
+		#a{
+			background-color: #0000ff;
+			color: yellow;
+			font-size: 30px;
+		}
+		.b{
+			background-color: black;
+			color: white;
+			font-size: 20px;
+			text-align: center;
+		}
+		table{
+			background-color: brown;
+		}
+	</style>
+</head>
+<body>
+	<table align="center" border=5 bgcolor="brown" width="500">
+		<th id="a" colspan="2">Employee Details</th>
+		<tr>
+			<td class="b">Name</td>
+			<td ><input type="Text" name="Name"></td>
+
+		</tr>
+		<tr>
+			<td class="b">Contact no.</td>
+			<td><input type="Text" name="Contact no."></td>
+		</tr>
+		<tr>
+			<td class="b">Address</td>
+			<td><input type="Text" name="Address"></td>
+		</tr>
+		<tr>
+			<td class="b" rowspan="3">Gender</td>
+			<td><input type="Radio" name="Gender">Male</td>
+		</tr>
+		<tr><td><input type="Radio" name="Gender">Female</td></tr>
+		<tr><td><input type="Radio" name="Gender">Other</td></tr>
+		<tr>
+			<td class="b">Date Of Birth</td>
+			<td><input type="Date" name="Date Of Birth"></td>
+		</tr>
+		<tr>
+			<td class="b" rowspan="4">Hobbies</td>
+			<td><input type="Checkbox" name="Hobbies">Singing</td>
+		</tr>
+		<tr><td><input type="Checkbox" name="Hobbies">Dancing</td></tr>
+		<tr><td><input type="Checkbox" name="Hobbies">Reading</td></tr>
+		<tr><td><input type="Checkbox" name="Hobbies">Other</td></tr>
+		<tr>
+			<td class="b">Upload Identity Proof</td>
+			<td><input type="file" name=""></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="Submit" name="Submit" size="20"></td>
+		</tr>
+	</table>
+
+</body>
+</html>

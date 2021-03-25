@@ -1,0 +1,15 @@
+#aa{
+	color: yellow;
+	background-color: green;
+	font-size: 50px;
+	text-align: center;
+}
+.bb{
+	color: red;
+	background-color: #9999ff;
+	font-size: 50px;
+	text-align: center;
+}
+*{
+	background-color: #99ffbb;
+}
