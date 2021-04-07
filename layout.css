@@ -1,0 +1,66 @@
+#main{
+	width: 1200px;
+	height: 900px;
+	border:solid;
+	margin: auto;
+}
+#logo{
+	width: 1200px;
+	height: 300px;
+	border:solid;
+}
+#logot{
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 160px;
+	padding-left: 30px; 
+}
+#opt{
+	width: 1200px;
+	height: 50px;
+	border:solid;
+}
+/*
+#table{
+	width: 1200px;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border:solid;
+	border-width: 5px;
+	border-color: red;
+}
+*/
+.td{
+	width: 195px;
+	height: 50px;
+	
+	float: left;
+	border:solid;
+	font-size: 25px;
+	text-align: center;
+	background-color: black;
+	color: red;
+	border-color: white;
+
+}
+#sub{
+	width: 1200px;
+	height: 450px;
+	border:solid;
+}
+.suba{
+	width: 395px;
+	height: 450px;
+	border:solid;
+	float: left;
+}
+.tr{
+	font-size: 25px;
+	padding: 5px;
+	border:groove;
+	height: 40px;
+
+}
+

@@ -21,6 +21,11 @@
 			background-color: brown;
 		}
 	</style>
+	<script type="text/javascript">
+		function Button(){
+			alert("Submitted");
+		}
+	</script>
 </head>
 <body>
 	<table align="center" border=5 bgcolor="brown" width="500">
@@ -60,7 +65,7 @@
 			<td><input type="file" name=""></td>
 		</tr>
 		<tr>
-			<td colspan="2" align="center"><input type="Submit" name="Submit" size="20"></td>
+			<td colspan="2" align="center"><input type="Submit" value="Submit" name="" size="20" onclick="Button()"></td>
 		</tr>
 	</table>
 

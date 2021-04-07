@@ -1,0 +1,57 @@
+<!-- DOM-Document Object Model:
+	When the document  is loaded in the browser it become document object   -->
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<style type="text/css">
+			*{
+				background: #33ffff;
+			}
+			div{
+				height: 70px;
+				width: 800px;
+				margin: auto;
+				border: solid;
+				border-color: blue;
+				border-width: 7px;
+				background: #ffe6b3;
+
+
+			}
+			.aa{
+				background-color: #ff80ff;
+				border:groove;
+				border-color: #663300;
+			}
+		</style>
+		<script type="text/javascript">
+			function display(){
+				var a=document.harsh.n.value; 
+				if (a=="") {
+					alert("Name can't be blank ");
+				}
+				else{
+					alert("Submission Successful");
+				}
+				var b=document.harsh.p.value;
+				var c=b.length;
+				if (b.length<6) {
+					alert("Password must be atleast 6 characters");
+				}
+				else{
+					alert("Submission Successful");
+				}
+			}
+		</script>
+		<title></title>
+	</head>
+	<body>
+		<div>
+		<form name="harsh">
+			<font size="5" color="#990000" >Name</font>:<input class="aa" type="text" name="n">
+			<font size="5" color="#990000" >Password</font>:<input class="aa" type="password" name="p">
+			<input type="button" onclick="display()" value="submit" name="">
+		</form>
+		</div>	
+	</body>
+	</html>
