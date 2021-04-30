@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("h1").mouseenter(function(){
+				$("div").text("Mouse Cursor touched the text").show().fadeOut(3000);
+				
+			})
+			$("h1").mouseleave(function(){
+				$("div").text("bye bye user").show().fadeOut(3000);
+				
+			})
+		})
+	</script>
+</head>
+<body>
+	<h1>Brink your mouse here</h1>
+	<div></div>
+
+</body>
+</html>

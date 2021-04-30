@@ -1,0 +1,54 @@
+<!--  NAME
+CONTACT
+EMAIL
+PASSWORD-ATLEAST 8 CHAR	 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function button(){
+			var na=document.getElementById('name').value;
+			var co=document.getElementById('contact').value;
+			var em=document.getElementById('email').value;
+			var pa=document.getElementById('password').value;
+			if (na=="") {/*
+				document.getElementById('name').innerHTML="Name cant be blank";*/
+				alert("Name");
+				
+			}
+			if (co.length<11) {
+				alert("Number must be atleast 10 digits");
+			}
+			if (em=="") {
+				alert("Email cant be blank");
+			}
+			if (pa.length<9) {
+				alert("Password must be atlest 8characters")
+			}
+			else{
+				alert("Registered Successfully");
+			}
+
+		}
+		
+	</script>
+</head>
+<body>
+	<form>
+	<input id="name" type="text" placeholder="Name" name="">
+	<br>
+	
+	<input id="contact" type="text" placeholder="Contact" name="">
+	<br>
+	
+	<input id="email" type="text" placeholder="Email" name="">
+	<br>
+	
+	<input id="password" type="text" placeholder="Password" name="">
+	<br>
+	<input type="submit" onclick="button()" name="">
+	</form>
+
+</body>
+</html>

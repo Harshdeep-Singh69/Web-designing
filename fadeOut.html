@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#div1{
+			height: 80px;
+			width: 80px;
+			
+			background-color: red;
+		}
+		#div2{
+			height: 80px;
+			width: 80px;
+			
+			background-color: pink;
+		}
+		#div3{
+			height: 80px;
+			width: 80px;
+			
+			background-color: green;
+		}
+	</style>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#ss").click(function(){
+				$("#div1").fadeOut(1000);
+				$("#div2").fadeOut(2000);
+				$("#div3").fadeOut(3000);
+			})
+		})
+	</script>
+	<title></title>
+</head>
+<body>
+	<input type="submit" value="click" id="ss" name=""><br><br>
+	<div id="div1"></div><br>
+	<div id="div2" ></div><br>
+	<div id="div3"></div><br>
+
+</body>
+</html>

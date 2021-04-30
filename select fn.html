@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div{
+			background-color: green;
+			color: yellow;
+			width: 150px;
+		}
+	</style>
+	<title></title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("input").select(function(){
+				$("div").text("Some text was selected").show().fadeOut(3000);
+			});
+		});
+			
+					
+	</script>
+</head>
+<body>
+	<input id="text" value="click" >
+	<input id="text" value="Dont click" >
+	<div></div>
+	
+
+</body>
+</html>

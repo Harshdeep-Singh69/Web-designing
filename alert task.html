@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>JAVASCRIPT CAN VALIDATE INPUT</h1>
+	<
+	<script type="text/javascript">
+		function sub(){
+			var a=document.getElementById("aa").value;
+			if (a>0 && a<11) {
+				alert("Input OK");
+
+			}
+			/*
+			if(a<11){
+				document.write("Input OK");
+
+			}*/
+			else{
+				alert("Input not valid");
+			}
+		}
+	</script>
+	<form>
+		Enter Number:<input id="aa" type="text"  name="">
+		<input type="submit" value="submit" onclick="sub()" name="">
+	</form>
+
+</body>
+</html>

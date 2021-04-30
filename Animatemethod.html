@@ -1,0 +1,21 @@
+<!--Animate method helps us to create custom animations -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#ss").click(function(){
+				$("div").animate({left:'450px'});
+			});
+		});
+	</script>
+</head>
+<body>
+	<input id="ss" type="submit" value="click" name="">
+	<br><br>
+	<div style="height: 100px;width: 100px;position: absolute;background-color: blue;"></div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("ss").click(function(){
+				$("#div1").fadeIn(3000);
+				$("#div2").fadeIn("slow");
+				$("#div3").fadeIn(5000);
+
+			});
+
+		});
+		
+	</script>
+</head>
+<body>
+
+	<input id="ss" value="click" type="submit" name="">
+	<div id="div1" style="height: 80px;width: 80px; display: none;background-color: green;" ></div><br>
+	<div id="div2" style="height: 80px;width: 80px; display: none;background-color: pink;" ></div><br>
+	<div id="div3" style="height: 80px;width: 80px; display: none;background-color: red;" ></div><br>
+
+</body>
+</html>
